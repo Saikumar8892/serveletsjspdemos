@@ -13,6 +13,7 @@ public class AdditionServlet extends GenericServlet{
 
 	@Override
 	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
+	
 		System.out.println("Inside AddditionServlet service method");
 		int number1 = Integer.parseInt(req.getParameter("number1"));
 		int number2 = Integer.parseInt(req.getParameter("number2"));
@@ -20,6 +21,7 @@ public class AdditionServlet extends GenericServlet{
 		res.setContentType("text/html");
 		PrintWriter out = res.getWriter();
 		out.println("<h3>Result = " + result + "</h3>");
+		
 	}
 
 }

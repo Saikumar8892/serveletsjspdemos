@@ -11,6 +11,7 @@ import javax.servlet.ServletResponse;
 @SuppressWarnings("serial")
 public class HelloWorldServlet extends GenericServlet {
 
+
 	@Override
 	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
 		
@@ -18,12 +19,10 @@ public class HelloWorldServlet extends GenericServlet {
 		PrintWriter pw = res.getWriter();
 		pw.println("<html>");
 		pw.println("<body>");
-		pw.println("<h3>Welcome to servlets part phase-2 new journey begins</h3>");
+		pw.println("<h2>Welcome to servlets</h2>");
 		pw.println("</body>");
-		pw.println("</html>");
+		pw.println("</html>");	
 		
 	}
 
-	
-	
 }
