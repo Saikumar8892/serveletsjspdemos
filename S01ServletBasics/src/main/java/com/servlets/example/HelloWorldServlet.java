@@ -20,6 +20,7 @@ public class HelloWorldServlet extends GenericServlet {
 		pw.println("<html>");
 		pw.println("<body>");
 		pw.println("<h2>Welcome to servlets</h2>");
+		pw.println("<h1>Logout</h1>");
 		pw.println("</body>");
 		pw.println("</html>");	
 		
