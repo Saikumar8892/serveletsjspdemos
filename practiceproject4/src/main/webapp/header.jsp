@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Valid Product</title>
+<title>Insert title here</title>
 </head>
 <body>
-<%= session.getAttribute("name") %> has been added with product ID: <%= session.getAttribute("id") %> and the price: <%= session.getAttribute("price") %>
+<center>
+<h1>WELCOME TO THE PRODUCT DETAILS PORTAL</h1>
+</center>
 </body>
 </html>
