@@ -2,44 +2,47 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>FlyAway</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+
+<title>Flyaway Flight Booking</title>
+
+
+	<style>
+	body {
+	  background-image: url('images/Online-Flight-Booking-Offers.jpg');
+	  background-size:cover;
+	}
+	h1{
+	  font-family: 'Yellowtail', cursive;
+	  color:white;
+	  font-size:60px;
+	}
+	.button {
+	  background-color: #4CAF50; /* Green */
+	  border: none;
+	  border-radius: 12px;
+	  color: white;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  position: absolute;
+	  bottom:100px;
+	  margin-left:510px;
+	  cursor:pointer;
+	}
+	button:focus {     
+    background:#006600;    
+}
+
+   </style>
 </head>
+
 <body>
-<center>
-<h1 style="color:blue;">FlyAway</h1><br>
-<h2>Air Ticket Booking Portal</h2>
-<h2>Developed By <i>Swathi S</i></h2>
-</center>
-
-<hr>
-<h3>Search Flights</h3>
-<form action="searchServlet" method="post">
-		<table>
-			
-			<tr>
-				<td>Enter date of travel: </td>
-				<td><input name="tdate" type="text" /></td>
-			</tr>			
-			<tr>
-				<td>Enter  Boarding location:</td>
-				<td><input name="bloc" /></td>
-			</tr>
-			<tr>
-				<td>Enter Destination location:</td>
-				<td><input name="dloc" /></td>
-			</tr>
-			<tr>
-				<td>Number of people traveling:</td>
-				<td><input name="npeople" /></td>
-			</tr>
-			<tr>
-				<td />
-				<td><input type="submit" value="Search"/></td>
-			</tr>
-		</table>
-	</form>
-	
-	 <a href="admin.html" >Admin login</a>
-
+    <h1>Flyaway Flight Booking</h1>
+    <button class="button" onclick="window.location.href='login.html';return false;"> BOOK YOUR FLIGHT</button>
+    
 </body>
 </html>

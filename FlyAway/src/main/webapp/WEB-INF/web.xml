@@ -1,25 +1,58 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
-  <display-name>FlyAway</display-name>
-  <welcome-file-list>
-    <welcome-file>index.html</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
-    <welcome-file>index.htm</welcome-file>
-    <welcome-file>default.html</welcome-file>
-    <welcome-file>default.jsp</welcome-file>
-    <welcome-file>default.htm</welcome-file>
-  </welcome-file-list>
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ValidationControllerServlet</servlet-name>
+  	<display-name>ValidationControllerServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.ValidationControllerServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BookingControllerServlet</servlet-name>
+  	<display-name>BookingControllerServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.BookingControllerServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<display-name>LogoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdminControllerServlet</servlet-name>
+  	<display-name>AdminControllerServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.AdminControllerServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ActivityControllerServlet</servlet-name>
+  	<display-name>ActivityControllerServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.ActivityControllerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ValidationControllerServlet</servlet-name>
+  	<url-pattern>/ValidationControllerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BookingControllerServlet</servlet-name>
+  	<url-pattern>/BookingControllerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminControllerServlet</servlet-name>
+  	<url-pattern>/AdminControllerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ActivityControllerServlet</servlet-name>
+  	<url-pattern>/ActivityControllerServlet</url-pattern>
+  </servlet-mapping>
   
-    <context-param>
-		<param-name>dburl</param-name>
-		<param-value>jdbc:mysql://localhost/mydb</param-value>
-	</context-param>
-	<context-param>
-		<param-name>dbuser</param-name>
-		<param-value>root</param-value>
-	</context-param>
-	<context-param>
-		<param-name>dbpassword</param-name>
-		<param-value>Sai@123kumar</param-value>
-	</context-param>
 </web-app>
