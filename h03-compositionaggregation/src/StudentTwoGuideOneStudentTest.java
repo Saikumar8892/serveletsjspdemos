@@ -7,7 +7,7 @@ import com.samples.domain.Student;
 import com.samples.domain.User;
 import com.samples.utils.HibernateUtil;
 
-public class StudentTest {
+public class StudentTwoGuideOneStudentTest {
 
 	public static void main(String[] args) {
 		
@@ -19,13 +19,12 @@ public class StudentTest {
 
 			txn.begin();
 
-			Guide guide = new Guide("2000ABC001", "RK SIR", 1000);
-			Student student1 = new Student("SR001", "SAI", guide, 22);
-			Student student2 = new Student("SR002", "HARI", guide, 22);
+			Guide guide1 = new Guide("2000XYZ003", "Sri raman", 2000);
+			Guide guide2 = new Guide("2000PQR004", "vijayalakshmi mam", 4000);
+			Student student1 = new Student("vtu14582", "sai kumar", guide2, 22);
 			
-			session.save(guide);
-			session.save(student1);
-			session.save(student2);
+//			session.persist(guide1);
+			session.persist(student1);
 			
 			txn.commit();
 
@@ -43,3 +42,4 @@ public class StudentTest {
 	}
 	
 }
+

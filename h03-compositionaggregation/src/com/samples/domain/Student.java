@@ -1,5 +1,6 @@
 package com.samples.domain;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -20,13 +21,13 @@ public class Student {
 	
 	private String name;
 
-	@ManyToOne
+	@ManyToOne(cascade= {CascadeType.PERSIST, CascadeType.REMOVE})
 	@JoinColumn(name="guide_id")
 	private Guide guide;
 	
 	public Student() {}
 
-	public Student(String registrationId, String name, Guide guide) {
+	public Student(String registrationId, String name, Guide guide, int age) {
 		this.registrationId = registrationId;
 		this.name = name;
 		this.guide = guide;
