@@ -119,7 +119,7 @@ public class AdminControllerServlet extends HttpServlet {
 	private void viewSrcLocationList(HttpServletRequest request, HttpServletResponse response) throws SQLException, Exception, IOException {
 		List<String> src = adminDbUtil.getSourceLocationList();
 		request.setAttribute("SRC_LIST", src);
-		RequestDispatcher rd=request.getRequestDispatcher("admin_available_place.jsp");
+		RequestDispatcher rd=request.getRequestDispatcher("admin_availble_place.jsp");
 		rd.forward(request, response);
 	}	
 	

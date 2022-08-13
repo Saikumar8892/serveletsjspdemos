@@ -11,7 +11,6 @@
 </div>
 <div id="msg-container" style="border:2px solid black;background-color:white;opacity:0.8;margin: auto;width:60%;padding:15px;">
    <div style="margin-left:150px;">
-   <img src="images/thank-you.png">
    <h2 style="margin-left:70px;">PAYMENT SUCCESSFUL!</h2>
    <h4 style="margin-left:50px;"> Congratulations! Your booking is confirmed!</h4>
    <button  style="margin-left:-40px" onclick="window.location.href='home.jsp';return false;">Back to Home Page</button>

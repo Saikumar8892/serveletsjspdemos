@@ -4,7 +4,7 @@
 <%@include file="header.html" %>
 <div id="navbar">
   <ul>
-     <li><a href="admin_home.jsp">Hi Admin </a> </li>
+     <li><a href="admin_home.jsp">HI ADMIN </a> </li>
      <li><a href="admin_profile.html">MY PROFILE</a> </li>
      <li><a href="LogoutServlet" onclick="if(!(confirm('Are you sure you want to logout?')))return false">LOGOUT </a></li>
   </ul>
@@ -26,7 +26,7 @@
 <div id="search-container" style="border:2px solid black;background-color:white;opacity:0.8;margin: auto;width:80%;padding:15px;">
   <div id="rights_navbar">
              <h2 style="margin-left:10%">VIEW   MASTER   DATA   LIST</h2> 
-             <button style="margin-left:40px;padding: 10px 15px;font-size: 14px;background-color: #00cc00;cursor:pointer;border-radius:12px" onclick="window.location.href='add-flight.jsp';return false;">Add Flight</button>        
+             <button style="margin-left:40px;padding: 10px 15px;font-size: 14px;background-color:white;cursor:pointer;border-radius:12px" onclick="window.location.href='add-flight.jsp';return false;">Add Flight</button>        
      <ul>
         <li><a href="${srcLocLink}"> <b>AVAILABLE PLACES </b> </a></li>
         <li><a href="${desLocLink}"><b>AVAILABLE DESTINATION</b></a> </li>

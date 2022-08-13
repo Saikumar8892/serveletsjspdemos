@@ -8,7 +8,7 @@
 %>
 <div id="navbar">
   <ul>
-     <li><a href="home.jsp">Hi User </a> </li>
+     <li><a href="home.jsp">HI USER </a> </li>
      <li><a href="my-profile.jsp">MY PROFILE</a> </li>
      <li><a href="LogoutServlet" onclick="if(!(confirm('Are you sure you want to logout?')))return false">LOGOUT </a></li>
   </ul>
@@ -79,7 +79,7 @@
         </table>       
  
 
-  <button style="float:right;padding: 10px 24px;font-size: 16px;background-color: #00cc00;cursor:pointer;border-radius: 12px;" onclick="window.location.href='payment.jsp';return false;"> Proceed to Payment</button>
+  <button style="float:right;padding: 10px 24px;font-size: 16px;background-color:white;cursor:pointer;border-radius: 12px;" onclick="window.location.href='payment.jsp';return false;"> Proceed to Payment</button>
   
   </div>
   

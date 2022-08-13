@@ -33,7 +33,7 @@
 }
   %>
   
- <button  style="margin-left:40px;padding: 10px 24px;font-size: 16px;background-color: #00cc00;cursor:pointer;border-radius:12px" onclick="window.location.href='my-profile.jsp';return false;">BACK TO PROFILE</button>      
+ <button  style="margin-left:40px;padding: 10px 24px;font-size: 16px;background-color:white;cursor:pointer;border-radius:12px" onclick="window.location.href='my-profile.jsp';return false;">BACK TO PROFILE</button>      
        
  
  </div>

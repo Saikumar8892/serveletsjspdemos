@@ -4,7 +4,7 @@
 <%@include file="header.html" %>
 <div id="navbar">
   <ul>
-     <li><a href="admin_home.jsp">Hi Admin </a> </li>
+     <li><a href="admin_home.jsp">HI ADMIN </a> </li>
      <li><a href="admin-profile.jsp">MY PROFILE</a> </li>
      <li><a href="LogoutServlet" onclick="if(!(confirm('Are you sure you want to logout?')))return false">LOGOUT </a></li>
   </ul>

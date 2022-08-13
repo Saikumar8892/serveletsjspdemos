@@ -5,7 +5,7 @@
 
 <div id="navbar">
   <ul>
-    <li><a href="home.jsp">Hi User </a> </li>
+    <li><a href="home.jsp">HI USER </a> </li>
      <li><a href="#">MY PROFILE</a> </li>
      <li><a href="LogoutServlet" onclick="if(!(confirm('Are you sure you want to logout?')))return false">LOGOUT </a></li>
   </ul>
@@ -29,7 +29,7 @@
        <label> Enter New Password</label> <br>
        <input type="text" name="password2" required> 
    </div><br>
-   <input type="submit" value="CHANGE PASSWORD" id="change-pwd-btn" onclick="if(!(confirm('Are you sure you want to change password?')))return false;"  style="margin-left:0px;padding: 7px 12px;font-size: 14px;background-color: #00cc00;cursor:pointer;border-radius:12px"> 
+   <input type="submit" value="CHANGE PASSWORD" id="change-pwd-btn" onclick="if(!(confirm('Are you sure you want to change password?')))return false;"  style="margin-left:0px;padding: 7px 12px;font-size: 14px;background-color:white;cursor:pointer;border-radius:12px"> 
  </form>
  </div> <br>
   

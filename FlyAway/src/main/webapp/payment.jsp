@@ -34,7 +34,7 @@ p,h3{
 }
 #pyt-btn{
 margin-left:50px;
-background:green;
+background:blue;
 color:white;
 width:70%;
 }
@@ -44,7 +44,7 @@ width:70%;
 <body>
 <div id="payment-container">
 
-    <h2> CHECKOUT</h2>
+    <h2> PAYMENT PAGE</h2>
     <div id="payment-box">
     <form action="BookingControllerServlet" method="get">
     <input type="hidden" name="command" value="PAY">
