@@ -100,7 +100,7 @@
              <td> ${flight.totalStops}</td>
             <td>  ${flight.availableSeats}</td>
             <td> ${flight.fare} </td>
-            <td><input type="button" value="BOOK NOW!" style="background-color: #008CBA;color:white;cur" onclick="window.location.href='${tempLink}';return false;"
+            <td><input type="button" value="BOOK NOW!" style="background-color: white;color:black;cur" onclick="window.location.href='${tempLink}';return false;"
              class="book-now-button"> </td>
          </tr>
      </c:forEach>

@@ -34,8 +34,8 @@ p,h3{
 }
 #pyt-btn{
 margin-left:50px;
-background:blue;
-color:white;
+background:white;
+color:black;
 width:70%;
 }
 </style>
@@ -49,7 +49,7 @@ width:70%;
     <form action="BookingControllerServlet" method="get">
     <input type="hidden" name="command" value="PAY">
       <h3> DEBIT/CREDIT CARD PAYMENT</h3>
-      <div id="icons"> <img src="https://img.icons8.com/color/36/000000/visa.png"> <img src="https://img.icons8.com/color/36/000000/mastercard.png"> <img src="https://img.icons8.com/color/36/000000/amex.png"> </div><br> <br>
+      <div id="icons">  </div><br> <br>
       <br>
       <label>CARD NUMBER</label>
       <input type="text" placeholder="Valid 16 digit Card Number" required><br>
