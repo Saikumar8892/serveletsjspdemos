@@ -54,7 +54,9 @@ width:70%;
       <label>CARD NUMBER</label>
       <input type="text" placeholder="Valid 16 digit Card Number" required><br>
       
-      <label>EXPIRATION DATE</label>
+      <label>VALID FROM</label>
+      <input type="text"  placeholder="MM/YY" required><br>
+      <label>VALID THRU</label>
       <input type="text"  placeholder="MM/YY" required><br>
       
       <label>CVV CODE</label>

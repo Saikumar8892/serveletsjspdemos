@@ -39,4 +39,3 @@
   
    <!-- /Flight Details -->
   
-<%@include file="footer.html" %>

@@ -17,4 +17,3 @@
    <button style="float:right;margin-right:150px" onclick="window.location.href='my-profile.jsp';return false;">View My Order</button>
    </div>
 </div>   
-<%@include file="footer.html" %>

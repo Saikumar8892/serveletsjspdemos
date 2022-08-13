@@ -38,4 +38,4 @@
  
  </div>
  
- <%@include file="footer.html" %>
+ 

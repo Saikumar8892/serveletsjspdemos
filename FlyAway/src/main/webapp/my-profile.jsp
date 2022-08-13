@@ -21,14 +21,14 @@
  <h2>MY PROFILE</h2>
     <div id="options">
       <div class="option" style="display: inline-block;margin-right:40px;margin-left:40px;">
-         <img alt="details" src="images/67-512-removebg-preview.png"><br>
+         
          <button style="margin-left:40px" onclick="window.location.href='${detailsLink}';return false;">MY DETAILS</button>      
       </div>
         <div class="option" style="display: inline-block;margin-right:40px;margin-left:40px;">
-         <img alt="orders" src="images/plane-air-ticket-circle-icon-vector-8543584-removebg-preview.png"><br>
+         
          <button  style="margin-left:50px" onclick="window.location.href='${ordersLink}';return false;">MY ORDERS</button>      
       </div>    
     </div>
  </div>
  
- <%@include file="footer.html" %>
+ 
